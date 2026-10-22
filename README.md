@@ -1,6 +1,6 @@
-# nor-database —— 图鉴数据专用仓库
+# nor-database —— 图鉴 / 地图数据专用仓库
 
-这个仓库**只放图鉴数据**：不放任何网站代码，也不放任何 workflow。存在的唯一目的：
+这个仓库**只放数据（图鉴 + 地图）**：不放任何网站代码，也不放任何 workflow。存在的唯一目的：
 
 > 让「小伴侣」用一个**专属令牌**把各账号的图鉴记录传上来，而那个令牌**碰不到** `norr-wiki`
 > 和其他任何项目 —— 因为细粒度令牌被限制在**本仓库**，且本仓库里只有 JSON。
@@ -10,14 +10,16 @@
 ```
 小伴侣「同步到公共图鉴」
    │  PUT contrib/char-<角色ID>.json                                  ← 内置专属令牌，用户零配置
+   │  PUT maps-contrib/maps-<角色ID>.json                            ← 同一个令牌
    │  POST norr-wiki .../workflows/bestiary-merge.yml/dispatches      ← 通知立刻合并
    ▼
 TravisWWW/nor-database（本仓库，只有数据）
    ▼
 TravisWWW/norr-wiki
-   │  拉取本仓库 contrib/*.json → node tools/merge-bestiary-contrib.mjs
+   │  拉取 contrib/*.json → merge-bestiary-contrib.mjs（图鉴）
+   │  拉取 maps-contrib/*.json → merge-maps-contrib.mjs（地图）
    ▼
-src/data/bestiary-live.json（唯一一份权威图鉴文档）→ 构建 → GitHub Pages
+src/data/bestiary-live.json（权威图鉴）+ public/norroth-maps.json（权威地图）→ 构建 → GitHub Pages
 ```
 
 norr-wiki 那边同时挂了 **每 5 分钟定时兜底**，所以即使通知丢了，数据也会在几分钟内被合并。
@@ -25,6 +27,8 @@ norr-wiki 那边同时挂了 **每 5 分钟定时兜底**，所以即使通知�
 ## 目录
 
 - `contrib/` —— 每个账号一份 `char-<角色ID>.json`（小伴侣自动上传；同名覆盖，天然去重）。
+- `maps-contrib/` —— 每个账号一份 `maps-<角色ID>.json`（地图；小伴侣自动上传；同名覆盖）。
+  地图合并规则：**按地图 id 取 at 最新**，整条替换（名字/采集点/怪物/出口格/门全部跟着走，门也可删）。
 
 ## 为什么单独开一个仓库
 
