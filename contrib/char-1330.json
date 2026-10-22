@@ -2,12 +2,12 @@
  "meta": {
   "char": "#1330",
   "charId": 1330,
-  "level": 38,
-  "time": "2026-10-21T19:34:29.563Z",
+  "level": 41,
+  "time": "2026-10-22T17:40:23.092Z",
   "count": 193,
-  "recorded": 102,
+  "recorded": 114,
   "idSource": "codex",
-  "scriptVersion": "2.6.94",
+  "scriptVersion": "2.6.105",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -22,18 +22,70 @@
    "type": "Animal",
    "biome": "Sewers",
    "lore": "In the reeking bowels of ancient cities, these bloated vermin fester and thrive. No longer mere scavengers, sewer rats have grown bold on rot and ruin, their crimson eyes gleaming with unnatural awareness. They carry plague between their yellowed fangs, and whisper-songs say they follow the scent of dying kings.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "1 - 4",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Mucky Meat",
+     "res": "mucky_meat",
+     "pct": "14%"
+    },
+    {
+     "name": "Mucky Hide",
+     "res": "mucky_hide",
+     "pct": "32%"
+    },
+    {
+     "name": "Mucky Tooth",
+     "res": "mucky_tooth",
+     "pct": "9%"
+    },
+    {
+     "name": "Mucky Bone",
+     "res": "mucky_bone",
+     "pct": "9%"
+    },
+    {
+     "name": "Mucky Tendon",
+     "res": "mucky_tendon",
+     "pct": "18%"
+    },
+    {
+     "name": "Mucky Skull",
+     "res": "mucky_skull",
+     "pct": "5%"
+    },
+    {
+     "name": "Mucky Eye",
+     "res": "mucky_eye",
+     "pct": "9%"
+    },
+    {
+     "name": "Mucky Tail",
+     "res": "mucky_tail",
+     "pct": "5%"
+    }
+   ],
    "drops": [],
-   "skills": [],
+   "skills": [
+    {
+     "name": "poison_bite",
+     "id": 10007,
+     "level": 1
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 1
+    }
+   ],
    "stats": {},
-   "killCount": 0
+   "killCount": 19
   },
   {
    "id": 2,
@@ -1296,18 +1348,120 @@
    "type": "Animal",
    "biome": "Taiga, Frost Cave",
    "lore": "Cold wind follows the Cougar through frozen forests. Lean and relentless, it leaps from ledges and snowbanks with predatory elegance. A ghost in white, it watches, waits, and finishes what hunger starts.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "25 - 50",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Low Quality Meat",
+     "res": "low_quality_meat",
+     "pct": "17%"
+    },
+    {
+     "name": "Low Quality Hide",
+     "res": "low_quality_hide",
+     "pct": "30%"
+    },
+    {
+     "name": "Low Quality Fang",
+     "res": "low_quality_fang",
+     "pct": "7%"
+    },
+    {
+     "name": "Low Quality Bone",
+     "res": "low_quality_bone",
+     "pct": "10%"
+    },
+    {
+     "name": "Low Quality Tendon",
+     "res": "low_quality_tendon",
+     "pct": "10%"
+    },
+    {
+     "name": "Low Quality Skull",
+     "res": "low_quality_skull",
+     "pct": "3%"
+    },
+    {
+     "name": "Low Quality Claw",
+     "res": "low_quality_claw",
+     "pct": "13%"
+    },
+    {
+     "name": "Low Quality Eye",
+     "res": "low_quality_eye",
+     "pct": "7%"
+    },
+    {
+     "name": "Low Quality Tail",
+     "res": "low_quality_tail",
+     "pct": "3%"
+    }
+   ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 0
+   "skills": [
+    {
+     "name": "leap",
+     "id": 9,
+     "level": 5
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 5
+    },
+    {
+     "name": "maul",
+     "id": 10015,
+     "level": 5
+    },
+    {
+     "name": "scratch",
+     "id": 10008,
+     "level": 5
+    },
+    {
+     "name": "pounce",
+     "id": 10162,
+     "level": 5
+    }
+   ],
+   "stats": {
+    "Base Damage": 20,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5,
+    "Evasion": 5,
+    "Critical Chance": 8,
+    "Critical Strike": 25,
+    "Hit Rating": 30,
+    "Attack Speed": 6,
+    "Armor Penetration": 1
+   },
+   "killCount": 43
   },
   {
    "id": 32,
@@ -1584,18 +1738,49 @@
    "type": "Humanoid",
    "biome": "Taiga, Frost Cave, Frostvault Isle",
    "lore": "From the depths of the frost caves comes the Frostbinder, a warrior-mage who bends ice like iron. With each swing, he leaves trails of cold flame, and his enemies fall frozen, eyes wide and cracking.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "25 - 50",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Medium",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Medium Mana Potion",
+     "res": "medium_mana_potion",
+     "pct": "6%"
+    },
+    {
+     "name": "Bronze Axe Blade",
+     "res": "bronze_axe_blade",
+     "pct": "6%"
+    },
+    {
+     "name": "Spruce Handle",
+     "res": "spruce_handle",
+     "pct": "10%"
+    },
+    {
+     "name": "Low Quality Leather Shoe Base",
+     "res": "low_quality_leather_shoe_base",
+     "pct": "8%"
+    },
+    {
+     "name": "Jute Fleece",
+     "res": "jute_fleece",
+     "pct": "8%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 3
   },
   {
    "id": 45,
@@ -1633,9 +1818,34 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 1
+   "skills": [
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 1
+    },
+    {
+     "name": "vampiric_bite",
+     "id": 10021,
+     "level": 1
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 23
   },
   {
    "id": 47,
@@ -5632,7 +5842,7 @@
     }
    ],
    "stats": {},
-   "killCount": 10
+   "killCount": 11
   },
   {
    "id": 159,
@@ -5773,7 +5983,7 @@
     }
    ],
    "stats": {},
-   "killCount": 15
+   "killCount": 18
   },
   {
    "id": 161,
@@ -5957,7 +6167,7 @@
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 1
+   "killCount": 2
   },
   {
    "id": 167,
@@ -5965,18 +6175,59 @@
    "type": "Animal",
    "biome": "Taiga, Arctic Isle, Frost Cave, Frozen Float",
    "lore": "Within the frigid wastes, the Polar Bear stalks the ice with regal ferocity. Its pelt is thick as plate, its rage colder than the wind. These beasts are ancient, drawn to sacred glacial grounds where gods once wept, and they kill without hesitation to keep it pure.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "1 - 60",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "health": "High",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Mucky Meat",
+     "res": "mucky_meat",
+     "pct": "11%"
+    },
+    {
+     "name": "Mucky Hide",
+     "res": "mucky_hide",
+     "pct": "33%"
+    },
+    {
+     "name": "Mucky Tooth",
+     "res": "mucky_tooth",
+     "pct": "7%"
+    },
+    {
+     "name": "Mucky Bone",
+     "res": "mucky_bone",
+     "pct": "11%"
+    },
+    {
+     "name": "Mucky Tendon",
+     "res": "mucky_tendon",
+     "pct": "11%"
+    },
+    {
+     "name": "Mucky Skull",
+     "res": "mucky_skull",
+     "pct": "4%"
+    },
+    {
+     "name": "Mucky Claw",
+     "res": "mucky_claw",
+     "pct": "15%"
+    },
+    {
+     "name": "Mucky Eye",
+     "res": "mucky_eye",
+     "pct": "7%"
+    }
+   ],
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 168,
@@ -6728,9 +6979,55 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 1
+   "skills": [
+    {
+     "name": "lethal_bite",
+     "id": 10019,
+     "level": 4
+    },
+    {
+     "name": "aerial_claw_assault",
+     "id": 10062,
+     "level": 4
+    },
+    {
+     "name": "scratch",
+     "id": 10008,
+     "level": 4
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 5,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5,
+    "Evasion": 2,
+    "Critical Chance": 2,
+    "Critical Strike": 4,
+    "Hit Rating": 40,
+    "Attack Speed": 2,
+    "Armor Penetration": 1
+   },
+   "killCount": 44
   },
   {
    "id": 186,
@@ -6738,18 +7035,49 @@
    "type": "Humanoid",
    "biome": "Taiga, Arctic Isle, Frostvault Isle",
    "lore": "Howling across icy cliffs, the Berserker fights with frostbitten fury and burning wrath. Cold only fuels her rage, and her axe cracks both bone and stone. She feels no pain, only the joy of battle.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "25 - 50",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Bronze Axe Blade",
+     "res": "bronze_axe_blade",
+     "pct": "8%"
+    },
+    {
+     "name": "Bronze Plating",
+     "res": "bronze_plating",
+     "pct": "7%"
+    },
+    {
+     "name": "Low Quality Sharpened Tooth",
+     "res": "low_quality_sharpened_tooth",
+     "pct": "8%"
+    },
+    {
+     "name": "Spruce Rod",
+     "res": "spruce_rod",
+     "pct": "6%"
+    },
+    {
+     "name": "Jute Fleece",
+     "res": "jute_fleece",
+     "pct": "6%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 187,
@@ -6757,18 +7085,49 @@
    "type": "Humanoid",
    "biome": "Taiga",
    "lore": "Wings of silver, heart of storm, the Valkyrie descends from mountain skies to judge the worthy. With enchanted axes and strikes of lightning, she carves her path through the unworthy. She does not die, she ascends.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "25 - 50",
+   "alignment": "Light",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Low Quality Wing",
+     "res": "low_quality_wing",
+     "pct": "20%"
+    },
+    {
+     "name": "Bronze Plating",
+     "res": "bronze_plating",
+     "pct": "9%"
+    },
+    {
+     "name": "Bronze Hilt",
+     "res": "bronze_hilt",
+     "pct": "7%"
+    },
+    {
+     "name": "Bronze Axe Blade",
+     "res": "bronze_axe_blade",
+     "pct": "7%"
+    },
+    {
+     "name": "Princess Sapphire",
+     "res": "princess_sapphire",
+     "pct": "5%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 188,
@@ -6776,18 +7135,64 @@
    "type": "Animal",
    "biome": "Taiga, Frost Cave",
    "lore": "Massive and unmoving as the mountain, the Yak shrugs off arrows like snowflakes. When angered, it charges with the weight of winter, horns low and heart wild. It feeds clans, crushes foes, and fears nothing.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "30 - 50",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "health": "High",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Medium Quality Meat",
+     "res": "medium_quality_meat",
+     "pct": "18%"
+    },
+    {
+     "name": "Medium Quality Hide",
+     "res": "medium_quality_hide",
+     "pct": "30%"
+    },
+    {
+     "name": "Medium Quality Tooth",
+     "res": "medium_quality_tooth",
+     "pct": "6%"
+    },
+    {
+     "name": "Medium Quality Bone",
+     "res": "medium_quality_bone",
+     "pct": "9%"
+    },
+    {
+     "name": "Medium Quality Tendon",
+     "res": "medium_quality_tendon",
+     "pct": "12%"
+    },
+    {
+     "name": "Medium Quality Skull",
+     "res": "medium_quality_skull",
+     "pct": "3%"
+    },
+    {
+     "name": "Medium Quality Hoof",
+     "res": "medium_quality_hoof",
+     "pct": "12%"
+    },
+    {
+     "name": "Medium Quality Eye",
+     "res": "medium_quality_eye",
+     "pct": "6%"
+    },
+    {
+     "name": "Medium Quality Tail",
+     "res": "medium_quality_tail",
+     "pct": "3%"
+    }
+   ],
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 189,
@@ -7432,18 +7837,89 @@
    "type": "Animal",
    "biome": "Dark Boreal",
    "lore": "Forged by nature and bred for battle, the Armored Ram shatters shields with brutal precision. Its headbutt isn`t just a strike, it`s a declaration.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Quality Meat",
+     "res": "quality_meat",
+     "pct": "12%"
+    },
+    {
+     "name": "Quality Hide",
+     "res": "quality_hide",
+     "pct": "35%"
+    },
+    {
+     "name": "Quality Bone",
+     "res": "quality_bone",
+     "pct": "12%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "12%"
+    },
+    {
+     "name": "Quality Skull",
+     "res": "quality_skull",
+     "pct": "4%"
+    },
+    {
+     "name": "Quality Hoof",
+     "res": "quality_hoof",
+     "pct": "15%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "8%"
+    },
+    {
+     "name": "Quality Tail",
+     "res": "quality_tail",
+     "pct": "4%"
+    }
+   ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 0
+   "skills": [
+    {
+     "name": "jump",
+     "id": 10010,
+     "level": 8
+    },
+    {
+     "name": "headbutt",
+     "id": 10011,
+     "level": 8
+    },
+    {
+     "name": "bash",
+     "id": 10120,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 28
   },
   {
    "id": 222,
@@ -7451,18 +7927,65 @@
    "type": "Humanoid",
    "biome": "Dark Boreal",
    "lore": "Stout as the mountains, the Dwarven Guard defends their dark strongholds with grim resolve. Their silent vigil ends only with steel, or stonefall.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Stoneforged Chest",
+     "res": "stoneforged_chest",
+     "pct": "10%"
+    },
+    {
+     "name": "Mithril Plating",
+     "res": "mithril_plating",
+     "pct": "9%"
+    },
+    {
+     "name": "Mithril Point",
+     "res": "mithril_point",
+     "pct": "6%"
+    },
+    {
+     "name": "Beech Rod",
+     "res": "beech_rod",
+     "pct": "7%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "overwhelming_dark",
+     "id": 41,
+     "level": 8
+    },
+    {
+     "name": "fearing_touch",
+     "id": 51,
+     "level": 8
+    },
+    {
+     "name": "dark_strike",
+     "id": 10038,
+     "level": 8
+    },
+    {
+     "name": "unholy_barrier",
+     "id": 54,
+     "level": 8
+    }
+   ],
    "stats": {},
-   "killCount": 0
+   "killCount": 17
   },
   {
    "id": 223,
@@ -7470,17 +7993,99 @@
    "type": "Humanoid",
    "biome": "Dark Boreal",
    "lore": "Eyes sharp as obsidian and bolts swifter than thought, the Dwarven Hunter moves through shadow with deadly aim. Few hear the shot that ends them.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Stoneforged Chest",
+     "res": "stoneforged_chest",
+     "pct": "10%"
+    },
+    {
+     "name": "Mithril Point",
+     "res": "mithril_point",
+     "pct": "8%"
+    },
+    {
+     "name": "Mithril Nails",
+     "res": "mithril_nails",
+     "pct": "5%"
+    },
+    {
+     "name": "Beech Rod",
+     "res": "beech_rod",
+     "pct": "8%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "double_shot",
+     "id": 95,
+     "level": 8
+    },
+    {
+     "name": "pin_down",
+     "id": 97,
+     "level": 8
+    },
+    {
+     "name": "splintering_shot",
+     "id": 101,
+     "level": 8
+    },
+    {
+     "name": "piercing_bolt",
+     "id": 100,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 5,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 5,
+    "Critical Chance": 8,
+    "Critical Strike": 25,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 3,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 0,
+    "Maximum Life": 60
+   },
    "killCount": 0
   },
   {
@@ -7489,17 +8094,94 @@
    "type": "Humanoid",
    "biome": "Dark Boreal",
    "lore": "Wielding runic fire from ancient lore, the Dwarven Caster sears enemies with a fury born in stone halls. Magic is not their gift, it is their legacy.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "Medium",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Stoneforged Chest",
+     "res": "stoneforged_chest",
+     "pct": "10%"
+    },
+    {
+     "name": "Quality Scroll",
+     "res": "quality_scroll",
+     "pct": "8%"
+    },
+    {
+     "name": "Ramie Fleece",
+     "res": "ramie_fleece",
+     "pct": "6%"
+    },
+    {
+     "name": "Ramie Cord",
+     "res": "ramie_cord",
+     "pct": "7%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "fire_ball",
+     "id": 10052,
+     "level": 8
+    },
+    {
+     "name": "dark_ball",
+     "id": 10073,
+     "level": 8
+    },
+    {
+     "name": "tome_of_deep_rune",
+     "id": 10174,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 5,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 10,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 20,
+    "Cold Resist": 20,
+    "Dark Resist": 20,
+    "Fire Resist": 20,
+    "Light Resist": 20,
+    "Lightning Resist": 20,
+    "Poison Resist": 20,
+    "Evasion": 5,
+    "Critical Chance": 5,
+    "Critical Strike": 15,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 2,
+    "Maximum Life": 60
+   },
    "killCount": 0
   },
   {
@@ -7508,17 +8190,120 @@
    "type": "Creature",
    "biome": "Dark Boreal",
    "lore": "A venomous beast with ancient eyes, the Komodo Basilisk paralyzes with gaze and bite alike. Its scales glisten with silent menace.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Quality Meat",
+     "res": "quality_meat",
+     "pct": "19%"
+    },
+    {
+     "name": "Quality Scale",
+     "res": "quality_scale",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tooth",
+     "res": "quality_tooth",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Bone",
+     "res": "quality_bone",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "19%"
+    },
+    {
+     "name": "Quality Skull",
+     "res": "quality_skull",
+     "pct": "3%"
+    },
+    {
+     "name": "Quality Claw",
+     "res": "quality_claw",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "6%"
+    },
+    {
+     "name": "Quality Tail",
+     "res": "quality_tail",
+     "pct": "3%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Komodo Basilisk Pet Egg",
+     "res": "komodo_basilisk_pet_egg",
+     "pct": "0.3%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "poison_bite",
+     "id": 10007,
+     "level": 8
+    },
+    {
+     "name": "gaze",
+     "id": 10087,
+     "level": 8
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 5,
+    "Thorn Damage": 0,
+    "Defense": 40,
+    "Block Chance": 10,
+    "Block Rating": 1,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 2,
+    "Critical Chance": 4,
+    "Critical Strike": 5,
+    "Hit Rating": 20,
+    "Attack Speed": 2,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 2,
+    "Life Regeneration": 0,
+    "Mana Regeneration": 0,
+    "Maximum Life": 90
+   },
    "killCount": 0
   },
   {
