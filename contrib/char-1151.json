@@ -3,7 +3,7 @@
   "char": "#1151",
   "charId": 1151,
   "level": 43,
-  "time": "2026-10-22T09:27:49.965Z",
+  "time": "2026-10-22T10:44:51.845Z",
   "count": 193,
   "recorded": 99,
   "idSource": "codex",
@@ -8871,7 +8871,7 @@
     }
    ],
    "stats": {},
-   "killCount": 14
+   "killCount": 16
   },
   {
    "id": 222,
@@ -8916,7 +8916,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 1
+   "killCount": 2
   },
   {
    "id": 223,
@@ -8981,8 +8981,43 @@
      "level": 8
     }
    ],
-   "stats": {},
-   "killCount": 17
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 5,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 5,
+    "Critical Chance": 8,
+    "Critical Strike": 25,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 3,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 0,
+    "Maximum Life": 60
+   },
+   "killCount": 0
   },
   {
    "id": 224,
@@ -9065,9 +9100,20 @@
     "Fire Resist": 20,
     "Light Resist": 20,
     "Lightning Resist": 20,
-    "Poison Resist": 20
+    "Poison Resist": 20,
+    "Evasion": 5,
+    "Critical Chance": 5,
+    "Critical Strike": 15,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 2,
+    "Maximum Life": 60
    },
-   "killCount": 34
+   "killCount": 0
   },
   {
    "id": 225,
@@ -9136,9 +9182,25 @@
      "pct": "0.3%"
     }
    ],
-   "skills": [],
+   "skills": [
+    {
+     "name": "poison_bite",
+     "id": 10007,
+     "level": 8
+    },
+    {
+     "name": "gaze",
+     "id": 10087,
+     "level": 8
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 8
+    }
+   ],
    "stats": {},
-   "killCount": 9
+   "killCount": 18
   },
   {
    "id": 226,
