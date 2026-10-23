@@ -3,11 +3,11 @@
   "char": "#1151",
   "charId": 1151,
   "level": 46,
-  "time": "2026-10-23T02:35:41.313Z",
+  "time": "2026-10-23T04:06:26.873Z",
   "count": 193,
   "recorded": 100,
   "idSource": "codex",
-  "scriptVersion": "2.6.117",
+  "scriptVersion": "2.6.119",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -8271,7 +8271,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 6
+   "killCount": 7
   },
   {
    "id": 193,
@@ -9007,7 +9007,7 @@
     "Poison Damage": 0,
     "Thorn Damage": 5
    },
-   "killCount": 26
+   "killCount": 27
   },
   {
    "id": 223,
