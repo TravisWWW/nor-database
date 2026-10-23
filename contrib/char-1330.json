@@ -2,12 +2,12 @@
  "meta": {
   "char": "#1330",
   "charId": 1330,
-  "level": 47,
-  "time": "2026-10-23T14:48:28.120Z",
+  "level": 48,
+  "time": "2026-10-23T21:46:27.387Z",
   "count": 193,
-  "recorded": 115,
+  "recorded": 120,
   "idSource": "codex",
-  "scriptVersion": "2.6.125",
+  "scriptVersion": "2.6.129",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -4143,9 +4143,14 @@
     "Critical Strike": 25,
     "Hit Rating": 30,
     "Attack Speed": 2,
-    "Armor Penetration": 4
+    "Armor Penetration": 4,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 0,
+    "Mana Regeneration": 0,
+    "Maximum Life": 110
    },
-   "killCount": 44
+   "killCount": 0
   },
   {
    "id": 111,
@@ -7860,10 +7865,16 @@
    "defense": "High",
    "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 4
   },
   {
    "id": 193,
@@ -8302,18 +8313,45 @@
    "type": "Creature",
    "biome": "Underground",
    "lore": "A nightmare for blacksmiths and warriors alike, the Rust Monster`s claws corrode iron on contact. It thrives in the deep, gnawing away the past, one blade at a time.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
-   "drops": [],
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "High",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Quality Chitin",
+     "res": "quality_chitin",
+     "pct": "9%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "45%"
+    },
+    {
+     "name": "Quality Skull",
+     "res": "quality_skull",
+     "pct": "27%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "18%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Rust Monster Pet Egg",
+     "res": "rust_monster_pet_egg",
+     "pct": "0.4%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 214,
@@ -8321,18 +8359,29 @@
    "type": "Undead",
    "biome": "Underground",
    "lore": "Once a hearty soul of the mines, now a cursed phantom who haunts the tunnels with ghostly tools and endless thirst for ale. Don`t follow the sound of picks, you won`t return.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Light",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Spirit Essence",
+     "res": "spirit_essence",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 3
   },
   {
    "id": 215,
@@ -8340,18 +8389,29 @@
    "type": "Elemental",
    "biome": "Underground",
    "lore": "With stony hide and a hunger for metal, the Xorn slips through rock like fish through water. It doesn`t care what you`re holding, as long as it shines.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Laterite",
+     "res": "laterite",
+     "pct": "80%"
+    },
+    {
+     "name": "Spirit Stone",
+     "res": "spirit_stone",
+     "pct": "20%"
+    }
+   ],
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 8
   },
   {
    "id": 216,
@@ -8359,18 +8419,55 @@
    "type": "Creature",
    "biome": "Underground",
    "lore": "A twisted fusion of rodent and horror, the Werebat stalks the shadows of the deep. Its screech heralds panic, and its wings slice the silence before the attack.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
-   "drops": [],
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Quality Meat",
+     "res": "quality_meat",
+     "pct": "19%"
+    },
+    {
+     "name": "Quality Fang",
+     "res": "quality_fang",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Wing",
+     "res": "quality_wing",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "38%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tail",
+     "res": "quality_tail",
+     "pct": "6%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Werebat Pet Egg",
+     "res": "werebat_pet_egg",
+     "pct": "0.5%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 4
   },
   {
    "id": 217,
@@ -8378,18 +8475,39 @@
    "type": "Humanoid",
    "biome": "Underground",
    "lore": "Madness and metal meet in the Goblin Engineer. From unstable grenades to arcane fuses, it lives for explosions, especially yours.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "40 - 60",
+   "alignment": "Dark",
+   "specials": "-",
+   "health": "Low",
+   "defense": "Medium",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Mithril Wire",
+     "res": "mithril_wire",
+     "pct": "9%"
+    },
+    {
+     "name": "Mithril Nails",
+     "res": "mithril_nails",
+     "pct": "8%"
+    },
+    {
+     "name": "Quality Goblin Ear",
+     "res": "quality_goblin_ear",
+     "pct": "6%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 218,
@@ -8508,7 +8626,7 @@
     "Lightning Resist": 5,
     "Poison Resist": 5
    },
-   "killCount": 37
+   "killCount": 39
   },
   {
    "id": 222,
@@ -8588,7 +8706,7 @@
     "Poison Damage": 0,
     "Thorn Damage": 5
    },
-   "killCount": 24
+   "killCount": 26
   },
   {
    "id": 223,
