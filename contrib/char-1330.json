@@ -2,12 +2,12 @@
  "meta": {
   "char": "#1330",
   "charId": 1330,
-  "level": 41,
-  "time": "2026-10-22T17:40:23.092Z",
+  "level": 47,
+  "time": "2026-10-23T14:48:28.120Z",
   "count": 193,
-  "recorded": 114,
+  "recorded": 115,
   "idSource": "codex",
-  "scriptVersion": "2.6.105",
+  "scriptVersion": "2.6.125",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -151,8 +151,22 @@
      "level": 1
     }
    ],
-   "stats": {},
-   "killCount": 14
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 5,
+    "Thorn Damage": 0
+   },
+   "killCount": 29
   },
   {
    "id": 3,
@@ -215,9 +229,60 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 7
+   "skills": [
+    {
+     "name": "headbutt",
+     "id": 10011,
+     "level": 1
+    },
+    {
+     "name": "kick",
+     "id": 10082,
+     "level": 1
+    },
+    {
+     "name": "trample",
+     "id": 10136,
+     "level": 1
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5,
+    "Evasion": 5,
+    "Critical Chance": 0,
+    "Critical Strike": 0,
+    "Hit Rating": 20,
+    "Attack Speed": 6,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 0,
+    "Mana Regeneration": 0,
+    "Maximum Life": 90
+   },
+   "killCount": 0
   },
   {
    "id": 4,
@@ -322,8 +387,22 @@
      "level": 1
     }
    ],
-   "stats": {},
-   "killCount": 13
+   "stats": {
+    "Base Damage": 5,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 29
   },
   {
    "id": 6,
@@ -403,8 +482,22 @@
      "level": 1
     }
    ],
-   "stats": {},
-   "killCount": 16
+   "stats": {
+    "Base Damage": 5,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 24
   },
   {
    "id": 8,
@@ -467,9 +560,60 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 2
+   "skills": [
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 1
+    },
+    {
+     "name": "lethal_bite",
+     "id": 10019,
+     "level": 1
+    },
+    {
+     "name": "scratch",
+     "id": 10008,
+     "level": 1
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 10,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 5,
+    "Critical Chance": 2,
+    "Critical Strike": 1,
+    "Hit Rating": 20,
+    "Attack Speed": 6,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 0,
+    "Mana Regeneration": 0,
+    "Maximum Life": 60
+   },
+   "killCount": 0
   },
   {
    "id": 10,
@@ -522,9 +666,30 @@
      "pct": "6%"
     }
    ],
-   "skills": [],
+   "skills": [
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 1
+    },
+    {
+     "name": "impale",
+     "id": 10049,
+     "level": 1
+    },
+    {
+     "name": "tail_sweep",
+     "id": 10149,
+     "level": 1
+    },
+    {
+     "name": "slash",
+     "id": 10024,
+     "level": 1
+    }
+   ],
    "stats": {},
-   "killCount": 4
+   "killCount": 12
   },
   {
    "id": 11,
@@ -587,9 +752,50 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 2
+   "skills": [
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 1
+    },
+    {
+     "name": "tail_slap",
+     "id": 10137,
+     "level": 1
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 10,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 5,
+    "Critical Chance": 0,
+    "Critical Strike": 0,
+    "Hit Rating": 20,
+    "Attack Speed": 6,
+    "Armor Penetration": 1
+   },
+   "killCount": 45
   },
   {
    "id": 13,
@@ -627,9 +833,34 @@
      "pct": "15%"
     }
    ],
-   "skills": [],
-   "stats": {},
-   "killCount": 1
+   "skills": [
+    {
+     "name": "stab",
+     "id": 10012,
+     "level": 1
+    },
+    {
+     "name": "impale",
+     "id": 10049,
+     "level": 1
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 23
   },
   {
    "id": 14,
@@ -717,9 +948,44 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 1
+   "skills": [
+    {
+     "name": "poison_bite",
+     "id": 10007,
+     "level": 1
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 1
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 5,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5
+   },
+   "killCount": 32
   },
   {
    "id": 16,
@@ -864,7 +1130,7 @@
     "Lightning Resist": 10,
     "Poison Resist": 10
    },
-   "killCount": 30
+   "killCount": 33
   },
   {
    "id": 20,
@@ -927,9 +1193,30 @@
     }
    ],
    "drops": [],
-   "skills": [],
+   "skills": [
+    {
+     "name": "headbutt",
+     "id": 10011,
+     "level": 1
+    },
+    {
+     "name": "charge",
+     "id": 10016,
+     "level": 1
+    },
+    {
+     "name": "horn_stab",
+     "id": 10017,
+     "level": 1
+    },
+    {
+     "name": "trample",
+     "id": 10136,
+     "level": 1
+    }
+   ],
    "stats": {},
-   "killCount": 3
+   "killCount": 14
   },
   {
    "id": 21,
@@ -1526,7 +1813,7 @@
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 4
+   "killCount": 7
   },
   {
    "id": 33,
@@ -1541,11 +1828,28 @@
    "health": "Low",
    "defense": "High",
    "resistance": "Low",
-   "scavenging": [],
-   "drops": [],
+   "scavenging": [
+    {
+     "name": "Mucky Fang",
+     "res": "mucky_fang",
+     "pct": "67%"
+    },
+    {
+     "name": "Mucky Chitin",
+     "res": "mucky_chitin",
+     "pct": "33%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Woodland Spider Pet Egg",
+     "res": "woodland_spider_pet_egg",
+     "pct": "4.5%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 3
   },
   {
    "id": 37,
@@ -1938,8 +2242,22 @@
      "level": 2
     }
    ],
-   "stats": {},
-   "killCount": 10
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 20
   },
   {
    "id": 52,
@@ -2396,10 +2714,57 @@
    "defense": "High",
    "resistance": "High",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Mithril Blade",
+     "res": "mithril_blade",
+     "pct": "10%"
+    },
+    {
+     "name": "Mithril Plating",
+     "res": "mithril_plating",
+     "pct": "12%"
+    },
+    {
+     "name": "Mithril Hilt",
+     "res": "mithril_hilt",
+     "pct": "8%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "slash",
+     "id": 10024,
+     "level": 8
+    },
+    {
+     "name": "lethal_stab",
+     "id": 10046,
+     "level": 8
+    },
+    {
+     "name": "light_ball",
+     "id": 10074,
+     "level": 8
+    },
+    {
+     "name": "arcana_ball",
+     "id": 10075,
+     "level": 8
+    },
+    {
+     "name": "stab",
+     "id": 10012,
+     "level": 8
+    }
+   ],
    "stats": {},
-   "killCount": 0
+   "killCount": 18
   },
   {
    "id": 69,
@@ -3296,9 +3661,19 @@
     "Light Damage": 0,
     "Lightning Damage": 0,
     "Poison Damage": 0,
-    "Thorn Damage": 0
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5
    },
-   "killCount": 23
+   "killCount": 36
   },
   {
    "id": 105,
@@ -3346,9 +3721,44 @@
     }
    ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 8
+   "skills": [
+    {
+     "name": "resilient_shell",
+     "id": 10018,
+     "level": 2
+    },
+    {
+     "name": "tail_sweep",
+     "id": 10149,
+     "level": 2
+    },
+    {
+     "name": "razor_glide",
+     "id": 10154,
+     "level": 2
+    },
+    {
+     "name": "sand_shroud",
+     "id": 10153,
+     "level": 2
+    }
+   ],
+   "stats": {
+    "Base Damage": 20,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 5,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 20
   },
   {
    "id": 106,
@@ -5019,18 +5429,24 @@
    "type": "Creature",
    "biome": "Underground",
    "lore": "A nightmare birthed in the darkest trenches, the Kraken Mother commands the black seas and the beasts within. Her limbs can crush ships, her ink blinds gods, and her shriek summons storms. She is not worshipped, only appeased.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "25 - 25",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "High",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 134,
@@ -5190,9 +5606,20 @@
     "Fire Resist": 10,
     "Light Resist": 15,
     "Lightning Resist": 0,
-    "Poison Resist": 10
+    "Poison Resist": 10,
+    "Evasion": 5,
+    "Critical Chance": 4,
+    "Critical Strike": 5,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 0,
+    "Maximum Life": 110
    },
-   "killCount": 32
+   "killCount": 0
   },
   {
    "id": 140,
@@ -6272,7 +6699,7 @@
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 2
+   "killCount": 9
   },
   {
    "id": 169,
@@ -6611,9 +7038,34 @@
      "pct": "8%"
     }
    ],
-   "skills": [],
-   "stats": {},
-   "killCount": 4
+   "skills": [
+    {
+     "name": "light_ball",
+     "id": 10074,
+     "level": 2
+    },
+    {
+     "name": "heal",
+     "id": 10080,
+     "level": 2
+    }
+   ],
+   "stats": {
+    "Base Damage": 6,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 1,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 21
   },
   {
    "id": 176,
@@ -6679,9 +7131,34 @@
      "pct": "100%"
     }
    ],
-   "skills": [],
-   "stats": {},
-   "killCount": 1
+   "skills": [
+    {
+     "name": "frozen_strike",
+     "id": 10043,
+     "level": 4
+    },
+    {
+     "name": "frost_ball",
+     "id": 10076,
+     "level": 4
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 5,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 5
+   },
+   "killCount": 20
   },
   {
    "id": 179,
@@ -6709,9 +7186,44 @@
      "pct": "100%"
     }
    ],
-   "skills": [],
-   "stats": {},
-   "killCount": 1
+   "skills": [
+    {
+     "name": "lightning_beam",
+     "id": 89,
+     "level": 4
+    },
+    {
+     "name": "lightning_orb",
+     "id": 10051,
+     "level": 4
+    },
+    {
+     "name": "lightning_bolt",
+     "id": 69,
+     "level": 4
+    },
+    {
+     "name": "electric_surge",
+     "id": 10103,
+     "level": 4
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 5,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 20
   },
   {
    "id": 181,
@@ -6754,9 +7266,44 @@
      "pct": "9%"
     }
    ],
-   "skills": [],
-   "stats": {},
-   "killCount": 2
+   "skills": [
+    {
+     "name": "lightning_orb",
+     "id": 10051,
+     "level": 4
+    },
+    {
+     "name": "dark_ball",
+     "id": 10073,
+     "level": 4
+    },
+    {
+     "name": "frost_ball",
+     "id": 10076,
+     "level": 4
+    },
+    {
+     "name": "lightning_bolt",
+     "id": 69,
+     "level": 4
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 3,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 5,
+    "Dark Damage": 5,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 5,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 22
   },
   {
    "id": 182,
@@ -6814,9 +7361,25 @@
     }
    ],
    "drops": [],
-   "skills": [],
+   "skills": [
+    {
+     "name": "arcane_thrust",
+     "id": 73,
+     "level": 4
+    },
+    {
+     "name": "dark_ball",
+     "id": 10073,
+     "level": 4
+    },
+    {
+     "name": "arcane_bolt",
+     "id": 68,
+     "level": 4
+    }
+   ],
    "stats": {},
-   "killCount": 1
+   "killCount": 19
   },
   {
    "id": 183,
@@ -6859,9 +7422,25 @@
      "pct": "6%"
     }
    ],
-   "skills": [],
+   "skills": [
+    {
+     "name": "lightning_orb",
+     "id": 10051,
+     "level": 4
+    },
+    {
+     "name": "arcana_ball",
+     "id": 10075,
+     "level": 4
+    },
+    {
+     "name": "basic_spell",
+     "id": 2,
+     "level": 4
+    }
+   ],
    "stats": {},
-   "killCount": 1
+   "killCount": 19
   },
   {
    "id": 184,
@@ -7917,9 +8496,19 @@
     "Light Damage": 0,
     "Lightning Damage": 0,
     "Poison Damage": 0,
-    "Thorn Damage": 0
+    "Thorn Damage": 0,
+    "Defense": 40,
+    "Block Chance": 10,
+    "Block Rating": 3,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5
    },
-   "killCount": 28
+   "killCount": 37
   },
   {
    "id": 222,
@@ -7984,8 +8573,22 @@
      "level": 8
     }
    ],
-   "stats": {},
-   "killCount": 17
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 5
+   },
+   "killCount": 24
   },
   {
    "id": 223,
