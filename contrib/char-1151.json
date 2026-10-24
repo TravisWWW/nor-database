@@ -2,12 +2,12 @@
  "meta": {
   "char": "#1151",
   "charId": 1151,
-  "level": 46,
-  "time": "2026-10-23T04:06:26.873Z",
+  "level": 55,
+  "time": "2026-10-24T20:03:37.677Z",
   "count": 193,
-  "recorded": 100,
+  "recorded": 111,
   "idSource": "codex",
-  "scriptVersion": "2.6.119",
+  "scriptVersion": "2.6.142",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -1134,7 +1134,7 @@
     "Lightning Resist": 5,
     "Poison Resist": 5
    },
-   "killCount": 37
+   "killCount": 38
   },
   {
    "id": 21,
@@ -4455,7 +4455,7 @@
     "Lightning Resist": 10,
     "Poison Resist": 10
    },
-   "killCount": 38
+   "killCount": 39
   },
   {
    "id": 113,
@@ -8269,9 +8269,30 @@
      "pct": "100%"
     }
    ],
-   "skills": [],
+   "skills": [
+    {
+     "name": "deadly_aroma",
+     "id": 10047,
+     "level": 8
+    },
+    {
+     "name": "sharp_leaf_strike",
+     "id": 10048,
+     "level": 8
+    },
+    {
+     "name": "root",
+     "id": 10086,
+     "level": 8
+    },
+    {
+     "name": "hex_of_rot",
+     "id": 122,
+     "level": 8
+    }
+   ],
    "stats": {},
-   "killCount": 7
+   "killCount": 12
   },
   {
    "id": 193,
@@ -8634,18 +8655,24 @@
    "type": "Creature",
    "biome": "Ghost Shore",
    "lore": "Thalassor, born in the depths where no sun dares shine, commands the sea`s darkest secrets. Tentacles crush, curses drown, and his eyes glimmer with ancient malevolence. The ocean is not empty, it listens.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "30 - 30",
+   "alignment": "Dark",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "High",
+   "defense": "High",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 209,
@@ -8710,18 +8737,45 @@
    "type": "Creature",
    "biome": "Underground",
    "lore": "A nightmare for blacksmiths and warriors alike, the Rust Monster`s claws corrode iron on contact. It thrives in the deep, gnawing away the past, one blade at a time.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
-   "drops": [],
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "High",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Quality Chitin",
+     "res": "quality_chitin",
+     "pct": "9%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "45%"
+    },
+    {
+     "name": "Quality Skull",
+     "res": "quality_skull",
+     "pct": "27%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "18%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Rust Monster Pet Egg",
+     "res": "rust_monster_pet_egg",
+     "pct": "0.4%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 214,
@@ -8729,18 +8783,50 @@
    "type": "Undead",
    "biome": "Underground",
    "lore": "Once a hearty soul of the mines, now a cursed phantom who haunts the tunnels with ghostly tools and endless thirst for ale. Don`t follow the sound of picks, you won`t return.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Light",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Spirit Essence",
+     "res": "spirit_essence",
+     "pct": "100%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "ale_consumption",
+     "id": 10037,
+     "level": 8
+    },
+    {
+     "name": "rock_splitter",
+     "id": 10176,
+     "level": 8
+    },
+    {
+     "name": "pick_swing",
+     "id": 10177,
+     "level": 8
+    },
+    {
+     "name": "spectral_fear",
+     "id": 10077,
+     "level": 8
+    }
+   ],
    "stats": {},
-   "killCount": 0
+   "killCount": 11
   },
   {
    "id": 215,
@@ -8748,18 +8834,29 @@
    "type": "Elemental",
    "biome": "Underground",
    "lore": "With stony hide and a hunger for metal, the Xorn slips through rock like fish through water. It doesn`t care what you`re holding, as long as it shines.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Laterite",
+     "res": "laterite",
+     "pct": "80%"
+    },
+    {
+     "name": "Spirit Stone",
+     "res": "spirit_stone",
+     "pct": "20%"
+    }
+   ],
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 216,
@@ -8767,18 +8864,55 @@
    "type": "Creature",
    "biome": "Underground",
    "lore": "A twisted fusion of rodent and horror, the Werebat stalks the shadows of the deep. Its screech heralds panic, and its wings slice the silence before the attack.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
-   "drops": [],
+   "recorded": true,
+   "levelRange": "40 - 49",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Quality Meat",
+     "res": "quality_meat",
+     "pct": "19%"
+    },
+    {
+     "name": "Quality Fang",
+     "res": "quality_fang",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Wing",
+     "res": "quality_wing",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "38%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tail",
+     "res": "quality_tail",
+     "pct": "6%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Werebat Pet Egg",
+     "res": "werebat_pet_egg",
+     "pct": "0.5%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 217,
@@ -8786,18 +8920,39 @@
    "type": "Humanoid",
    "biome": "Underground",
    "lore": "Madness and metal meet in the Goblin Engineer. From unstable grenades to arcane fuses, it lives for explosions, especially yours.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "40 - 60",
+   "alignment": "Dark",
+   "specials": "-",
+   "health": "Low",
+   "defense": "Medium",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Mithril Wire",
+     "res": "mithril_wire",
+     "pct": "9%"
+    },
+    {
+     "name": "Mithril Nails",
+     "res": "mithril_nails",
+     "pct": "8%"
+    },
+    {
+     "name": "Quality Goblin Ear",
+     "res": "quality_goblin_ear",
+     "pct": "6%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 4
   },
   {
    "id": 218,
@@ -9005,9 +9160,30 @@
     "Light Damage": 0,
     "Lightning Damage": 0,
     "Poison Damage": 0,
-    "Thorn Damage": 5
+    "Thorn Damage": 5,
+    "Defense": 40,
+    "Block Chance": 30,
+    "Block Rating": 6,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5,
+    "Evasion": 2,
+    "Critical Chance": 2,
+    "Critical Strike": 5,
+    "Hit Rating": 30,
+    "Attack Speed": 2,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 0,
+    "Maximum Life": 60
    },
-   "killCount": 27
+   "killCount": 0
   },
   {
    "id": 223,
@@ -9435,18 +9611,24 @@
    "type": "Construct",
    "biome": "Underground",
    "lore": "A juggernaut of stone and hate, Ghrorak was built for destruction. Its steps crack earth, and its fists make mountains tremble.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "49 - 49",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 4
   },
   {
    "id": 235,
@@ -9570,18 +9752,75 @@
    "type": "Humanoid",
    "biome": "Coastal",
    "lore": "A guardian of the reefs turned savage by the creeping corruption of Chaos. His trident once defended the shoals of Shandor, now it hunts the living with relentless fury. Barnacles cling to his armor, and dark tides follow his charge. Where he walks, the surf runs red.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Medium",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Deepwater Cache",
+     "res": "deepwater_cache",
+     "pct": "5%"
+    },
+    {
+     "name": "Ash Rod",
+     "res": "ash_rod",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Chest Base",
+     "res": "high_quality_leather_chest_base",
+     "pct": "5%"
+    },
+    {
+     "name": "High Quality Scale",
+     "res": "high_quality_scale",
+     "pct": "15%"
+    },
+    {
+     "name": "Valentaal Point",
+     "res": "valentaal_point",
+     "pct": "8%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "javelin_throw",
+     "id": 218,
+     "level": 10
+    },
+    {
+     "name": "tail_sweep",
+     "id": 10149,
+     "level": 10
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 10
+    },
+    {
+     "name": "chitin_armor",
+     "id": 10146,
+     "level": 10
+    }
+   ],
    "stats": {},
-   "killCount": 0
+   "killCount": 13
   },
   {
    "id": 245,
@@ -9589,18 +9828,89 @@
    "type": "Humanoid",
    "biome": "Coastal",
    "lore": "Silent among the jagged rocks and mist-covered shores, the Stalker watches with eyes clouded by Chaos. Once a patient hunter of the sea’s bounty, now he looses arrows dipped in abyssal rot. Many sailors swear the waves themselves guide his aim. Few live long enough to swear it twice.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Medium",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 0
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Deepwater Cache",
+     "res": "deepwater_cache",
+     "pct": "5%"
+    },
+    {
+     "name": "Ash Rod",
+     "res": "ash_rod",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Chest Base",
+     "res": "high_quality_leather_chest_base",
+     "pct": "5%"
+    },
+    {
+     "name": "High Quality Scale",
+     "res": "high_quality_scale",
+     "pct": "15%"
+    },
+    {
+     "name": "High Quality String",
+     "res": "high_quality_string",
+     "pct": "8%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "poison_shot",
+     "id": 96,
+     "level": 10
+    },
+    {
+     "name": "critical_shot",
+     "id": 10029,
+     "level": 10
+    },
+    {
+     "name": "double_shot",
+     "id": 95,
+     "level": 10
+    },
+    {
+     "name": "dazing_trap",
+     "id": 106,
+     "level": 10
+    }
+   ],
+   "stats": {
+    "Base Damage": 20,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0
+   },
+   "killCount": 23
   },
   {
    "id": 246,
@@ -9608,18 +9918,70 @@
    "type": "Humanoid",
    "biome": "Coastal",
    "lore": "Once a tide-whisperer who read the will of the ocean in moonlit currents. Now the Chaos coils through her mind like a storm beneath the waves. She chants to drowned gods and conjures tides that should not exist. Listen too long to her whispers, and the sea may begin whispering back.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Low",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Deepwater Cache",
+     "res": "deepwater_cache",
+     "pct": "5%"
+    },
+    {
+     "name": "Ash Rod",
+     "res": "ash_rod",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Chest Base",
+     "res": "high_quality_leather_chest_base",
+     "pct": "5%"
+    },
+    {
+     "name": "High Quality Scale",
+     "res": "high_quality_scale",
+     "pct": "15%"
+    },
+    {
+     "name": "Octagon Sapphire",
+     "res": "octagon_sapphire",
+     "pct": "8%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "tornado",
+     "id": 225,
+     "level": 10
+    },
+    {
+     "name": "rotting_grasp",
+     "id": 10156,
+     "level": 10
+    },
+    {
+     "name": "arcane_bolt",
+     "id": 68,
+     "level": 10
+    }
+   ],
    "stats": {},
-   "killCount": 0
+   "killCount": 11
   },
   {
    "id": 247,
@@ -9779,13 +10141,13 @@
    "type": "Humanoid",
    "biome": "Underground",
    "lore": "The Pitwarden stands guard over the deepest mines and forbidden passages of the Derro. Once responsible for protecting the miners from cave-ins and predators, these brutal wardens now serve something far more sinister beneath Moldrir. Clad in scavenged armor and driven by madness, they ensure that few enter the depths and fewer ever leave them.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Low",
+   "resistance": "High",
    "scavenging": [],
    "drops": [],
    "skills": [],
