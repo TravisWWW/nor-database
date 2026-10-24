@@ -2,12 +2,12 @@
  "meta": {
   "char": "#1330",
   "charId": 1330,
-  "level": 48,
-  "time": "2026-10-23T21:46:27.387Z",
+  "level": 50,
+  "time": "2026-10-24T18:27:04.397Z",
   "count": 193,
-  "recorded": 120,
+  "recorded": 123,
   "idSource": "codex",
-  "scriptVersion": "2.6.129",
+  "scriptVersion": "2.6.142",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -985,7 +985,7 @@
     "Lightning Resist": 5,
     "Poison Resist": 5
    },
-   "killCount": 32
+   "killCount": 33
   },
   {
    "id": 16,
@@ -7811,7 +7811,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 1
+   "killCount": 2
   },
   {
    "id": 190,
@@ -8237,18 +8237,24 @@
    "type": "Creature",
    "biome": "Ghost Shore",
    "lore": "Thalassor, born in the depths where no sun dares shine, commands the sea`s darkest secrets. Tentacles crush, curses drown, and his eyes glimmer with ancient malevolence. The ocean is not empty, it listens.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "30 - 30",
+   "alignment": "Dark",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "High",
+   "defense": "High",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 209,
@@ -8467,7 +8473,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 4
+   "killCount": 7
   },
   {
    "id": 217,
@@ -8507,7 +8513,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 2
+   "killCount": 3
   },
   {
    "id": 218,
@@ -8624,9 +8630,15 @@
     "Fire Resist": 5,
     "Light Resist": 5,
     "Lightning Resist": 5,
-    "Poison Resist": 5
+    "Poison Resist": 5,
+    "Evasion": 2,
+    "Critical Chance": 2,
+    "Critical Strike": 15,
+    "Hit Rating": 20,
+    "Attack Speed": 2,
+    "Armor Penetration": 1
    },
-   "killCount": 39
+   "killCount": 43
   },
   {
    "id": 222,
@@ -8704,9 +8716,30 @@
     "Light Damage": 0,
     "Lightning Damage": 0,
     "Poison Damage": 0,
-    "Thorn Damage": 5
+    "Thorn Damage": 5,
+    "Defense": 40,
+    "Block Chance": 30,
+    "Block Rating": 6,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5,
+    "Evasion": 2,
+    "Critical Chance": 2,
+    "Critical Strike": 5,
+    "Hit Rating": 30,
+    "Attack Speed": 2,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 0,
+    "Maximum Life": 60
    },
-   "killCount": 26
+   "killCount": 0
   },
   {
    "id": 223,
@@ -9090,13 +9123,13 @@
    "type": "Humanoid",
    "biome": "Grimble`s Camp",
    "lore": "Grimble is not a myth, but a madness made flesh. Shadow pulses from its hide, and silence follows its tread. Its voice? A memory best forgotten.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "45 - 45",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
    "drops": [],
    "skills": [],
@@ -9128,18 +9161,24 @@
    "type": "Construct",
    "biome": "Underground",
    "lore": "A juggernaut of stone and hate, Ghrorak was built for destruction. Its steps crack earth, and its fists make mountains tremble.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "49 - 49",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 7
   },
   {
    "id": 235,
