@@ -2,12 +2,12 @@
  "meta": {
   "char": "#3197",
   "charId": 3197,
-  "level": 29,
-  "time": "2026-10-30T19:14:48.482Z",
+  "level": 59,
+  "time": "2026-11-01T17:50:59.766Z",
   "count": 194,
-  "recorded": 73,
+  "recorded": 85,
   "idSource": "codex",
-  "scriptVersion": "2.6.192",
+  "scriptVersion": "2.6.232",
   "source": "game Inspect /modal/inspect_enemy",
   "unlock": {
    "recorded": 1,
@@ -3110,7 +3110,7 @@
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 1
+   "killCount": 2
   },
   {
    "id": 109,
@@ -3855,9 +3855,25 @@
     }
    ],
    "drops": [],
-   "skills": [],
+   "skills": [
+    {
+     "name": "horn_stab",
+     "id": 10017,
+     "level": 3
+    },
+    {
+     "name": "rampage",
+     "id": 10064,
+     "level": 3
+    },
+    {
+     "name": "charge",
+     "id": 10016,
+     "level": 3
+    }
+   ],
    "stats": {},
-   "killCount": 8
+   "killCount": 10
   },
   {
    "id": 132,
@@ -4886,8 +4902,8 @@
      "pct": "100%"
     },
     {
-     "name": "Warfang Cache",
-     "res": "warfang_cache",
+     "name": "Warfang Cache (Tier 2)",
+     "res": "warfang_cache_t2",
      "pct": "20%"
     },
     {
@@ -4950,8 +4966,8 @@
      "pct": "100%"
     },
     {
-     "name": "Warfang Cache",
-     "res": "warfang_cache",
+     "name": "Warfang Cache (Tier 2)",
+     "res": "warfang_cache_t2",
      "pct": "20%"
     },
     {
@@ -4972,7 +4988,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 3
+   "killCount": 4
   },
   {
    "id": 161,
@@ -4980,18 +4996,64 @@
    "type": "Creature",
    "biome": "Shrubland, Red Desert",
    "lore": "Twice the size of a wolf and ten times as cruel, the Warg is bred for war and bred by hate. Eyes like smoldering coals, its breath reeks of blood and fear. It doesn`t just hunt, it stalks, remembers, and returns.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "30 - 39",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "High",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Medium Quality Meat",
+     "res": "medium_quality_meat",
+     "pct": "16%"
+    },
+    {
+     "name": "Medium Quality Hide",
+     "res": "medium_quality_hide",
+     "pct": "31%"
+    },
+    {
+     "name": "Medium Quality Fang",
+     "res": "medium_quality_fang",
+     "pct": "6%"
+    },
+    {
+     "name": "Medium Quality Bone",
+     "res": "medium_quality_bone",
+     "pct": "9%"
+    },
+    {
+     "name": "Medium Quality Tendon",
+     "res": "medium_quality_tendon",
+     "pct": "13%"
+    },
+    {
+     "name": "Medium Quality Skull",
+     "res": "medium_quality_skull",
+     "pct": "3%"
+    },
+    {
+     "name": "Medium Quality Claw",
+     "res": "medium_quality_claw",
+     "pct": "13%"
+    },
+    {
+     "name": "Medium Quality Eye",
+     "res": "medium_quality_eye",
+     "pct": "6%"
+    },
+    {
+     "name": "Medium Quality Tail",
+     "res": "medium_quality_tail",
+     "pct": "3%"
+    }
+   ],
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 164,
@@ -6777,18 +6839,99 @@
    "type": "Animal",
    "biome": "Dark Boreal",
    "lore": "Forged by nature and bred for battle, the Armored Ram shatters shields with brutal precision. Its headbutt isn`t just a strike, it`s a declaration.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Quality Meat",
+     "res": "quality_meat",
+     "pct": "12%"
+    },
+    {
+     "name": "Quality Hide",
+     "res": "quality_hide",
+     "pct": "35%"
+    },
+    {
+     "name": "Quality Bone",
+     "res": "quality_bone",
+     "pct": "12%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "12%"
+    },
+    {
+     "name": "Quality Skull",
+     "res": "quality_skull",
+     "pct": "4%"
+    },
+    {
+     "name": "Quality Hoof",
+     "res": "quality_hoof",
+     "pct": "15%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "8%"
+    },
+    {
+     "name": "Quality Tail",
+     "res": "quality_tail",
+     "pct": "4%"
+    }
+   ],
    "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 0
+   "skills": [
+    {
+     "name": "jump",
+     "id": 10010,
+     "level": 8
+    },
+    {
+     "name": "headbutt",
+     "id": 10011,
+     "level": 8
+    },
+    {
+     "name": "bash",
+     "id": 10120,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 40,
+    "Block Chance": 10,
+    "Block Rating": 3,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5
+   },
+   "killCount": 38
   },
   {
    "id": 222,
@@ -6796,18 +6939,89 @@
    "type": "Humanoid",
    "biome": "Dark Boreal",
    "lore": "Stout as the mountains, the Dwarven Guard defends their dark strongholds with grim resolve. Their silent vigil ends only with steel, or stonefall.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
-   "killCount": 0
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Stoneforged Chest (Tier 5)",
+     "res": "stoneforged_chest_t5",
+     "pct": "10%"
+    },
+    {
+     "name": "Mithril Plating",
+     "res": "mithril_plating",
+     "pct": "9%"
+    },
+    {
+     "name": "Mithril Point",
+     "res": "mithril_point",
+     "pct": "6%"
+    },
+    {
+     "name": "Beech Rod",
+     "res": "beech_rod",
+     "pct": "7%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "overwhelming_dark",
+     "id": 41,
+     "level": 8
+    },
+    {
+     "name": "fearing_touch",
+     "id": 51,
+     "level": 8
+    },
+    {
+     "name": "dark_strike",
+     "id": 10038,
+     "level": 8
+    },
+    {
+     "name": "unholy_barrier",
+     "id": 54,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 5,
+    "Defense": 40,
+    "Block Chance": 30,
+    "Block Rating": 6,
+    "Arcane Resist": 5,
+    "Cold Resist": 5,
+    "Dark Resist": 5,
+    "Fire Resist": 5,
+    "Light Resist": 5,
+    "Lightning Resist": 5,
+    "Poison Resist": 5
+   },
+   "killCount": 36
   },
   {
    "id": 223,
@@ -6815,17 +7029,94 @@
    "type": "Humanoid",
    "biome": "Dark Boreal",
    "lore": "Eyes sharp as obsidian and bolts swifter than thought, the Dwarven Hunter moves through shadow with deadly aim. Few hear the shot that ends them.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Stoneforged Chest (Tier 5)",
+     "res": "stoneforged_chest_t5",
+     "pct": "10%"
+    },
+    {
+     "name": "Mithril Point",
+     "res": "mithril_point",
+     "pct": "8%"
+    },
+    {
+     "name": "Mithril Nails",
+     "res": "mithril_nails",
+     "pct": "5%"
+    },
+    {
+     "name": "Beech Rod",
+     "res": "beech_rod",
+     "pct": "8%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "pin_down",
+     "id": 97,
+     "level": 8
+    },
+    {
+     "name": "splintering_shot",
+     "id": 101,
+     "level": 8
+    },
+    {
+     "name": "piercing_bolt",
+     "id": 100,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 5,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 20,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 5,
+    "Critical Chance": 8,
+    "Critical Strike": 25,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 3,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 0,
+    "Maximum Life": 60
+   },
    "killCount": 0
   },
   {
@@ -6834,17 +7125,94 @@
    "type": "Humanoid",
    "biome": "Dark Boreal",
    "lore": "Wielding runic fire from ancient lore, the Dwarven Caster sears enemies with a fury born in stone halls. Magic is not their gift, it is their legacy.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Low",
+   "defense": "Medium",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Stoneforged Chest (Tier 5)",
+     "res": "stoneforged_chest_t5",
+     "pct": "10%"
+    },
+    {
+     "name": "Quality Scroll",
+     "res": "quality_scroll",
+     "pct": "8%"
+    },
+    {
+     "name": "Ramie Fleece",
+     "res": "ramie_fleece",
+     "pct": "6%"
+    },
+    {
+     "name": "Ramie Cord",
+     "res": "ramie_cord",
+     "pct": "7%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "fire_ball",
+     "id": 10052,
+     "level": 8
+    },
+    {
+     "name": "dark_ball",
+     "id": 10073,
+     "level": 8
+    },
+    {
+     "name": "tome_of_deep_rune",
+     "id": 10174,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 10,
+    "Physical Damage": 0,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 5,
+    "Fire Damage": 5,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 0,
+    "Thorn Damage": 0,
+    "Defense": 10,
+    "Block Chance": 0,
+    "Block Rating": 0,
+    "Arcane Resist": 20,
+    "Cold Resist": 20,
+    "Dark Resist": 20,
+    "Fire Resist": 20,
+    "Light Resist": 20,
+    "Lightning Resist": 20,
+    "Poison Resist": 20,
+    "Evasion": 5,
+    "Critical Chance": 5,
+    "Critical Strike": 15,
+    "Hit Rating": 40,
+    "Attack Speed": 6,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 0,
+    "Life Regeneration": 2,
+    "Mana Regeneration": 2,
+    "Maximum Life": 60
+   },
    "killCount": 0
   },
   {
@@ -6853,17 +7221,120 @@
    "type": "Creature",
    "biome": "Dark Boreal",
    "lore": "A venomous beast with ancient eyes, the Komodo Basilisk paralyzes with gaze and bite alike. Its scales glisten with silent menace.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
-   "drops": [],
-   "skills": [],
-   "stats": {},
+   "recorded": true,
+   "levelRange": "40 - 52",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "High",
+   "resistance": "Medium",
+   "scavenging": [
+    {
+     "name": "Quality Meat",
+     "res": "quality_meat",
+     "pct": "19%"
+    },
+    {
+     "name": "Quality Scale",
+     "res": "quality_scale",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tooth",
+     "res": "quality_tooth",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Bone",
+     "res": "quality_bone",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Tendon",
+     "res": "quality_tendon",
+     "pct": "19%"
+    },
+    {
+     "name": "Quality Skull",
+     "res": "quality_skull",
+     "pct": "3%"
+    },
+    {
+     "name": "Quality Claw",
+     "res": "quality_claw",
+     "pct": "13%"
+    },
+    {
+     "name": "Quality Eye",
+     "res": "quality_eye",
+     "pct": "6%"
+    },
+    {
+     "name": "Quality Tail",
+     "res": "quality_tail",
+     "pct": "3%"
+    }
+   ],
+   "drops": [
+    {
+     "name": "Komodo Basilisk Pet Egg",
+     "res": "komodo_basilisk_pet_egg",
+     "pct": "0.3%"
+    }
+   ],
+   "skills": [
+    {
+     "name": "poison_bite",
+     "id": 10007,
+     "level": 8
+    },
+    {
+     "name": "gaze",
+     "id": 10087,
+     "level": 8
+    },
+    {
+     "name": "bite",
+     "id": 10009,
+     "level": 8
+    }
+   ],
+   "stats": {
+    "Base Damage": 15,
+    "Physical Damage": 3,
+    "Blunt Damage": 0,
+    "Spell Damage": 0,
+    "Bleed Damage": 0,
+    "Arcane Damage": 0,
+    "Cold Damage": 0,
+    "Dark Damage": 0,
+    "Fire Damage": 0,
+    "Light Damage": 0,
+    "Lightning Damage": 0,
+    "Poison Damage": 5,
+    "Thorn Damage": 0,
+    "Defense": 40,
+    "Block Chance": 10,
+    "Block Rating": 1,
+    "Arcane Resist": 10,
+    "Cold Resist": 10,
+    "Dark Resist": 10,
+    "Fire Resist": 10,
+    "Light Resist": 10,
+    "Lightning Resist": 10,
+    "Poison Resist": 10,
+    "Evasion": 2,
+    "Critical Chance": 4,
+    "Critical Strike": 5,
+    "Hit Rating": 20,
+    "Attack Speed": 2,
+    "Armor Penetration": 1,
+    "Life Steal": 0,
+    "Mana Steal": 2,
+    "Life Regeneration": 0,
+    "Mana Regeneration": 0,
+    "Maximum Life": 90
+   },
    "killCount": 0
   },
   {
@@ -7003,7 +7474,7 @@
    ],
    "skills": [],
    "stats": {},
-   "killCount": 2
+   "killCount": 7
   },
   {
    "id": 237,
@@ -7087,18 +7558,54 @@
    "type": "Humanoid",
    "biome": "Coastal",
    "lore": "A guardian of the reefs turned savage by the creeping corruption of Chaos. His trident once defended the shoals of Shandor, now it hunts the living with relentless fury. Barnacles cling to his armor, and dark tides follow his charge. Where he walks, the surf runs red.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Medium",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Deepwater Cache",
+     "res": "deepwater_cache",
+     "pct": "5%"
+    },
+    {
+     "name": "Ash Rod",
+     "res": "ash_rod",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Chest Base",
+     "res": "high_quality_leather_chest_base",
+     "pct": "5%"
+    },
+    {
+     "name": "High Quality Scale",
+     "res": "high_quality_scale",
+     "pct": "15%"
+    },
+    {
+     "name": "Valentaal Point",
+     "res": "valentaal_point",
+     "pct": "8%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 8
   },
   {
    "id": 245,
@@ -7106,18 +7613,54 @@
    "type": "Humanoid",
    "biome": "Coastal",
    "lore": "Silent among the jagged rocks and mist-covered shores, the Stalker watches with eyes clouded by Chaos. Once a patient hunter of the sea’s bounty, now he looses arrows dipped in abyssal rot. Many sailors swear the waves themselves guide his aim. Few live long enough to swear it twice.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Medium",
+   "resistance": "Low",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Deepwater Cache",
+     "res": "deepwater_cache",
+     "pct": "5%"
+    },
+    {
+     "name": "Ash Rod",
+     "res": "ash_rod",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Chest Base",
+     "res": "high_quality_leather_chest_base",
+     "pct": "5%"
+    },
+    {
+     "name": "High Quality Scale",
+     "res": "high_quality_scale",
+     "pct": "15%"
+    },
+    {
+     "name": "High Quality String",
+     "res": "high_quality_string",
+     "pct": "8%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 246,
@@ -7125,18 +7668,54 @@
    "type": "Humanoid",
    "biome": "Coastal",
    "lore": "Once a tide-whisperer who read the will of the ocean in moonlit currents. Now the Chaos coils through her mind like a storm beneath the waves. She chants to drowned gods and conjures tides that should not exist. Listen too long to her whispers, and the sea may begin whispering back.",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Low",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Deepwater Cache",
+     "res": "deepwater_cache",
+     "pct": "5%"
+    },
+    {
+     "name": "Ash Rod",
+     "res": "ash_rod",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Chest Base",
+     "res": "high_quality_leather_chest_base",
+     "pct": "5%"
+    },
+    {
+     "name": "High Quality Scale",
+     "res": "high_quality_scale",
+     "pct": "15%"
+    },
+    {
+     "name": "Octagon Sapphire",
+     "res": "octagon_sapphire",
+     "pct": "8%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 2
   },
   {
    "id": 247,
@@ -7182,18 +7761,29 @@
    "type": "Humanoid",
    "biome": "Mountain, Vulcanic Underground, Rocky Ridge",
    "lore": "...",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
-   "scavenging": [],
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "High",
+   "defense": "High",
+   "resistance": "Low",
+   "scavenging": [
+    {
+     "name": "Travertine",
+     "res": "travertine",
+     "pct": "80%"
+    },
+    {
+     "name": "Spirit Stone",
+     "res": "spirit_stone",
+     "pct": "20%"
+    }
+   ],
    "drops": [],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 251,
@@ -7201,18 +7791,39 @@
    "type": "Humanoid",
    "biome": "Mountain, Vulcanic Underground",
    "lore": "...",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
-   "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "recorded": true,
+   "levelRange": "50 - 60",
+   "alignment": "Neutral",
+   "specials": "-",
+   "health": "Medium",
+   "defense": "Low",
+   "resistance": "High",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    },
+    {
+     "name": "Bamboo Fleece",
+     "res": "bamboo_fleece",
+     "pct": "12%"
+    },
+    {
+     "name": "High Quality Leather Belt Base",
+     "res": "high_quality_leather_belt_base",
+     "pct": "7%"
+    },
+    {
+     "name": "High Quality Leather Shoe Base",
+     "res": "high_quality_leather_shoe_base",
+     "pct": "7%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 252,
@@ -7220,18 +7831,24 @@
    "type": "Humanoid",
    "biome": "Vulcanic Underground",
    "lore": "...",
-   "recorded": false,
-   "levelRange": "",
-   "alignment": "",
+   "recorded": true,
+   "levelRange": "59 - 59",
+   "alignment": "Neutral",
    "specials": "",
-   "health": "",
-   "defense": "",
-   "resistance": "",
+   "health": "High",
+   "defense": "High",
+   "resistance": "Medium",
    "scavenging": [],
-   "drops": [],
+   "drops": [
+    {
+     "name": "Bronze Sestertii",
+     "res": "coin_bronze",
+     "pct": "100%"
+    }
+   ],
    "skills": [],
    "stats": {},
-   "killCount": 0
+   "killCount": 1
   },
   {
    "id": 253,
